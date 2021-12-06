@@ -43,7 +43,7 @@ def connect_to(filepath: str):
 
 
 if __name__ == "__main__":
-    xml_instance = connect_to("data/person.xml")
+    xml_instance = connect_to("../data/person.xml")
     print(xml_instance.parsed_data)
-    json_instance = connect_to("data/donut.json")
+    json_instance = connect_to("../data/donut.json")
     print(json_instance.parsed_data)

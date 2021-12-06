@@ -1,0 +1,33 @@
+[[package]]
+name = "pyparsing"
+version = "3.0.6"
+description = "Python parsing module"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.extras]
+diagrams = ["jinja2", "railroad-diagrams"]
+
+[[package]]
+name = "state-machine"
+version = "0.2.10"
+description = "Python State Machines for Humans"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "4c68079ec55cfaed70b947727b6936ee83d580dcff0ced7ab46440695d12a560"
+
+[metadata.files]
+pyparsing = [
+    {file = "pyparsing-3.0.6-py3-none-any.whl", hash = "sha256:04ff808a5b90911829c55c4e26f75fa5ca8a2f5f36aa3a51f68e27033341d3e4"},
+    {file = "pyparsing-3.0.6.tar.gz", hash = "sha256:d9bdec0013ef1eb5a84ab39a3b3868911598afa494f5faa038647101504e2b81"},
+]
+state-machine = [
+    {file = "state_machine-0.2.10-py2.py3-none-any.whl", hash = "sha256:8d37c36a89d4e961f2973daea727c242594b94c66debf04ea8dea3fb371b87e1"},
+    {file = "state_machine-0.2.10.tar.gz", hash = "sha256:0c6c3ecb52f83ffa9574319473bb797333d8311480e8677a7908654b221133a0"},
+]

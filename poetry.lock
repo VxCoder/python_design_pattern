@@ -1,4 +1,12 @@
 [[package]]
+name = "cowpy"
+version = "1.1.2"
+description = "A cowsay clone for python in one file."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "pyparsing"
 version = "3.0.6"
 description = "Python parsing module"
@@ -20,9 +28,12 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "4c68079ec55cfaed70b947727b6936ee83d580dcff0ced7ab46440695d12a560"
+content-hash = "4ec268c550234b51da944a7ed8137b86d6f1edfbd916ff044fc9089969b060a4"
 
 [metadata.files]
+cowpy = [
+    {file = "cowpy-1.1.2.tar.gz", hash = "sha256:1af8bc32e7ac6042d8d7f175dd87aa4f6f03a3c6e68c030fa2bf82c6f544f12d"},
+]
 pyparsing = [
     {file = "pyparsing-3.0.6-py3-none-any.whl", hash = "sha256:04ff808a5b90911829c55c4e26f75fa5ca8a2f5f36aa3a51f68e27033341d3e4"},
     {file = "pyparsing-3.0.6.tar.gz", hash = "sha256:d9bdec0013ef1eb5a84ab39a3b3868911598afa494f5faa038647101504e2b81"},
